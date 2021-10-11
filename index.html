@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GunShop</title>
+</head>
+<body>
+    <h1>Gun price calculator</h1>
+    <form>
+        <p>Input guns numbers: </p>
+        <input
+            type="text"
+            id = "Guns_Count"
+            value=""
+            placeholder="Numbers of guns"
+        >
+        <br>
+        <p>Input guns price: </p>
+        <input
+            type="text"
+            id = "Guns_Price"
+            value=""
+            placeholder="Price of guns"
+        >
+        <br>
+        <br>
+        <button type="button" onclick="calculate();">Calculate price</button>
+        <br>
+        <br>
+        <div id = "cost"></div>
+        <script src="main.js"></script>
+    </form>
+</body>
+</html>
