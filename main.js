@@ -1,4 +1,6 @@
-window.addEventListener("DOMContentLoaded", function (event){});
+window.addEventListener("DOMContentLoaded", function (event){
+  document.getElementById("click").addEventListener("click", calculate)  
+});
 
 function calculate() {
     let number = Number(document.getElementById("Guns_Count").value);
